@@ -28,3 +28,4 @@
 /Users/cbakcoleman/Desktop/CD_C#/cd_c_dojoSurvey/obj/Debug/netcoreapp3.1/cd_c_dojoSurvey.pdb
 /Users/cbakcoleman/Desktop/CD_C#/cd_c_dojoSurvey/obj/Debug/netcoreapp3.1/cd_c_dojoSurvey.genruntimeconfig.cache
 /Users/cbakcoleman/Desktop/CD_C#/cd_c_dojoSurvey/obj/Debug/netcoreapp3.1/cd_c_dojoSurvey.csproj.CopyComplete
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_dojoSurvey/obj/Debug/netcoreapp3.1/Razor/Views/Survey/results.cshtml.g.cs

@@ -8,15 +8,45 @@
     <title>Survey</title>
 </head>
 <body>
-    <div class="continer">
+    <div class="container">
         <div class="row">
-            <div class="card bg-dark text-light">
-                <div class="form-group">
-                    <label for="name">Your Name:</label>
-                    <input type="text" name="name" class="form-control">
+            <div class="container">
+                <div class="border bg-light m-3 p-3 d-flex justify-content-center" style="width:30rem">
+                    <form action="/results" method="post">
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" name="name" class="form-control">
+
+                            <label for="location">Dojo Location:</label>
+                            <select class="form-control" name="location">
+                                <option disabled selected hidden>--Select a Location--</option>
+                                <option name="bellevue">Bellevue, WA</option>
+                                <option name="boise">Boise, ID</option>
+                                <option name="chicago">Chicago, IL</option>
+                                <option name="los_angeles">Los Angeles, CA</option>
+                                <option name="silicon_valley">Silicon Valley, CA</option>
+                            </select>
+
+                            <label for="language">Favorite Language:</label>
+                            <select class="form-control" name="language">
+                                <option disabled selected hidden>--Select a Language--</option>
+                                <option name="html">HTML</option>
+                                <option name="css">CSS</option>
+                                <option name="javascript">JavaScript</option>
+                                <option name="python">Python</option>
+                                <option name="c_sharp">C#</option>
+                            </select>
+
+                            <label for="comments">Comments:</label>
+                            <textarea class="form-control" name="comments"  cols="30" rows="5"></textarea>
+                            
+                            <input type="submit" class="btn btn-info mt-2">
+
+                        </form>
+                    </div> <!--- END FORM GROUP --->
                 </div>
             </div>
-        </div>
-    </div>
+        </div> <!--- END ROW --->
+    </div> <!--- END WHOLE CONTAINER --->
 </body>
 </html>
